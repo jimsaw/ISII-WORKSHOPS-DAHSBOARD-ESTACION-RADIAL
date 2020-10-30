@@ -10,12 +10,12 @@ public class CarInsurance {
 	private String ci;
 	
 	
-	public CarInsurance(String edad, String sexo, String isMarried, String ci) {
+	public CarInsurance(String edad, String sexo, String isMarried, String ci) { //Class of a Car Insurance
 		this.edad = Integer.parseInt(edad);
 		this.sexo = sexo;
-		if(isMarried == "y") {
+		if (isMarried == "y") {
 			this.isMarried = true;	
-		}else {
+		} else {
 			this.isMarried = false;
 		}
 		this.ci = ci;
@@ -25,29 +25,34 @@ public class CarInsurance {
 	public int getEdad() {
 		return edad;
 	}
+	
 	public void setEdad(int edad) {
 		this.edad = edad;
 	}
+	
 	public String getSexo() {
 		return sexo;
 	}
+	
 	public void setSexo(String sexo) {
 		this.sexo = sexo;
 	}
+	
 	public boolean getEstadoCivil() {
 		return isMarried;
 	}
+	
 	public void setEstadoCivil(boolean isMarried) {
 		this.isMarried = isMarried;
 	}
 	
-	public boolean validDrivingLicense(){
+	public boolean validDrivingLicense() { //method to validate if the driving license
 		
 		if(this.ci.length() == 10) {
 			try {
 				Integer.parseInt(this.ci);
 				return true;
-			} catch (NumberFormatException nfe){
+			} catch (NumberFormatException nfe) {
 				return false;
 			}
 		}
@@ -55,9 +60,9 @@ public class CarInsurance {
 		return false;
 	}
 	
-	public int calculatePremium() {
+	public int calculatePremium() { //Method to calculate the premium value
 		int base = 500;
-		if(this.edad > 80) {
+		if (this.edad > 80) {
 			JOptionPane.showMessageDialog(null, "Edad no es permitida para otorgarle un seguro");
 			return -1;
 		}

@@ -7,10 +7,11 @@ public class CarInsurance {
 	private int edad;
 	private String sexo;
 	private boolean isMarried; //True: isMarried, False: is not married
-	private String ci;
+	private final String ci;
 	
 	
 	public CarInsurance(String edad, String sexo, String isMarried, String ci) {
+		/*Constructor*/
 		this.edad = Integer.parseInt(edad);
 		this.sexo = sexo;
 		if(isMarried == "y") {
@@ -65,10 +66,10 @@ public class CarInsurance {
 			JOptionPane.showMessageDialog(null, "Licencia no válida");
 			return -1;
 		}
-		if(this.sexo == "M" && !this.isMarried && this.edad<25) {
+		if( "M".equals(this.sexo) && !this.isMarried && this.edad<25) {
 			base += 1500;
 		}
-		if(this.sexo == "F" || this.isMarried) {
+		if("F".equals(this.sexo) || this.isMarried) {
 			base-=200;
 		}
 		if(this.edad>=45 && this.edad<65) {
@@ -89,7 +90,7 @@ public class CarInsurance {
 		CarInsurance cInsurance = new CarInsurance(edad, sexo, isMarried, ci);
 		
 		int valor = cInsurance.calculatePremium();
-		String mensaje = "";
+		String mensaje;
 		if(valor != -1) {
 			mensaje = "Su prima es de "+ valor;
 		}else {

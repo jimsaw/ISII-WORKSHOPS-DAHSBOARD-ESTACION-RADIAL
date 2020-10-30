@@ -1,0 +1,267 @@
+[1;33m*[0m file: [1;37msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:100[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m5:100[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Class comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m7:7[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m8:8[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m9:9[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mBeanMembersShouldSerialize
+[0;32m    msg:  [0mBeanMembersShouldSerialize: Found non-transient, non-static member. Please mark as transient or provide accessors.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Field comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mImmutableField
+[0;32m    msg:  [0mImmutableField: Private field 'ci' could be made final; it is only initialized in the declaration or constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m10:10[0m
+[0;32m    rule: [0mImmutableField
+[0;32m    msg:  [0mImmutableField: Private field 'ci' could be made final; it is only initialized in the declaration or constructor.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m13:23[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m13:23[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m16:16[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m16:16[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m16:16[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m16:16[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m37:39[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m37:39[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m40:42[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m40:42[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m44:56[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m44:56[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m46:46[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m46:46[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m58:78[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m58:78[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m58:78[0m
+[0;32m    rule: [0mCyclomaticComplexity
+[0;32m    msg:  [0mCyclomaticComplexity: The method 'calculatePremium()' has a cyclomatic complexity of 10.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m58:78[0m
+[0;32m    rule: [0mCyclomaticComplexity
+[0;32m    msg:  [0mCyclomaticComplexity: The method 'calculatePremium()' has a cyclomatic complexity of 10.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m59:78[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'base' (lines '59'-'78').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m59:78[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DU'-anomaly for variable 'base' (lines '59'-'78').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m60:60[0m
+[0;32m    rule: [0mAvoidLiteralsInIfCondition
+[0;32m    msg:  [0mAvoidLiteralsInIfCondition: Avoid using Literals in Conditional Statements
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m68:68[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m68:68[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m71:71[0m
+[0;32m    rule: [0mUseEqualsToCompareStrings
+[0;32m    msg:  [0mUseEqualsToCompareStrings: Use equals() to compare strings instead of '==' or '!='
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m80:99[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m80:99[0m
+[0;32m    rule: [0mCommentRequired
+[0;32m    msg:  [0mCommentRequired: Public method and constructor comments are required
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mOneDeclarationPerLine
+[0;32m    msg:  [0mOneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m82:82[0m
+[0;32m    rule: [0mOneDeclarationPerLine
+[0;32m    msg:  [0mOneDeclarationPerLine: Use one line for each declaration, it enhances code readability.
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m92:94[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mensaje' (lines '92'-'94').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m92:94[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mensaje' (lines '92'-'94').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m92:96[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mensaje' (lines '92'-'96').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m92:96[0m
+[0;32m    rule: [0mDataflowAnomalyAnalysis
+[0;32m    msg:  [0mDataflowAnomalyAnalysis: Found 'DD'-anomaly for variable 'mensaje' (lines '92'-'96').
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m92:92[0m
+[0;32m    rule: [0mUnusedAssignment
+[0;32m    msg:  [0mUnusedAssignment: The initializer for variable 'mensaje' is never used (overwritten on lines 94 and 96)
+[0;32m    code: [0mnull
+
+[0;32m    src:  [0;36msrc/main/java/ec/edu/espol/workshops/second/CarInsurance.java[0m:[0;36m92:92[0m
+[0;32m    rule: [0mUnusedAssignment
+[0;32m    msg:  [0mUnusedAssignment: The initializer for variable 'mensaje' is never used (overwritten on lines 94 and 96)
+[0;32m    code: [0mnull
+
+
+
+Summary:
+
+ec.edu.espol.workshops.second.CarInsurance : 21
+[1;33m*[0m warnings: [1;37m52[0m

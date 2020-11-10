@@ -13,7 +13,9 @@ public class CarInsurance {
 	public CarInsurance(String edad, String sexo, String isMarried, String ci) { //Class of a Car Insurance
 		this.edad = Integer.parseInt(edad);
 		this.sexo = sexo;
-		if (isMarried == "y") {
+
+		if(isMarried.equals("y") || isMarried.equals("yes") || isMarried.equals("YES")  || isMarried.equals("Yes")) {
+
 			this.isMarried = true;	
 		} else {
 			this.isMarried = false;

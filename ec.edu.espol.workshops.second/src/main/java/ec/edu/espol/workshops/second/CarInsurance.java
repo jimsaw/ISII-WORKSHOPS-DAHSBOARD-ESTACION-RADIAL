@@ -10,11 +10,11 @@ public class CarInsurance {
 	private final String ci;
 	
 	
-	public CarInsurance(String edad, String sexo, String isMarried, String ci) { //Class of a Car Insurance
-		this.edad = Integer.parseInt(edad);
+	public CarInsurance(int age, String sexo, String married, String ci) { //Class of a Car Insurance
+		this.edad = age;
 		this.sexo = sexo;
 
-		if(isMarried.equals("y") || isMarried.equals("yes") || isMarried.equals("YES")  || isMarried.equals("Yes")) {
+		if(married.equals("y") || married.equals("yes") || married.equals("YES")  || married.equals("Yes")) {
 
 			this.isMarried = true;	
 		} else {
@@ -93,7 +93,7 @@ public class CarInsurance {
 		isMarried = JOptionPane.showInputDialog("Se encuentra casado(a) (y/n): ");
 		ci = JOptionPane.showInputDialog("Ingrese su n�mero de c�dula: ");	
 		
-		CarInsurance cInsurance = new CarInsurance(edad, sexo, isMarried, ci);
+		CarInsurance cInsurance = new CarInsurance(Integer.parseInt(edad), sexo, isMarried, ci);
 		
 		int valor = cInsurance.calculatePremium();
 		String mensaje;

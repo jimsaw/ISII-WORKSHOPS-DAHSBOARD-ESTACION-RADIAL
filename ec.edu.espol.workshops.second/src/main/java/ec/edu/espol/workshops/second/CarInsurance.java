@@ -83,12 +83,12 @@ public class CarInsurance {
 	
 	public int calculatePremium() { //Method to calculate the premium value
 		int base = 500;
-		if (!(this.sexo.equals("F")) && !(this.sexo.equals("M"))) {
-			JOptionPane.showMessageDialog(null, "Sexo ingresado no es valido");
-			return -1;
-		}
 		if (this.edad == 0) {
 			JOptionPane.showMessageDialog(null, "Edad ingresada no es valida, utilice un numero");
+			return -1;
+		}
+		if (!(this.sexo.equals("F")) && !(this.sexo.equals("M"))) {
+			JOptionPane.showMessageDialog(null, "Sexo ingresado no es valido");
 			return -1;
 		}
 		if (this.edad > 80) {

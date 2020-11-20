@@ -127,6 +127,9 @@ public class CarInsurance {
 			System.exit(0);  
 		}
 		
+		sexo = sexo.toUpperCase();
+		isMarried = isMarried.toLowerCase();
+		
 		CarInsurance cInsurance = new CarInsurance(edad, sexo, isMarried, ci);
 		
 		int valor = cInsurance.calculatePremium();

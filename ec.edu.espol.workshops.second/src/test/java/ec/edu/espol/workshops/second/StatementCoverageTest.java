@@ -1,7 +1,8 @@
+package ec.edu.espol.workshops.second;
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
-public class TestEmployeeDetails {
+public class StatementCoverageTest {
 	@Test
 	   public void testCalculatePremium() {
 		    CarInsurance carinsurance1 = new CarInsurance("35", "mujer", "y", "0999999999");

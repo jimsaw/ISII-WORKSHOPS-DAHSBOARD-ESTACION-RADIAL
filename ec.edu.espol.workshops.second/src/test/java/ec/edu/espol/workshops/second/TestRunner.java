@@ -5,12 +5,18 @@ import org.junit.runner.notification.Failure;
 
 public class TestRunner {
    public static void main(String[] args) {
-	      Result result = JUnitCore.runClasses(PathCoverageTest.class);
+	      Result resultPathTest = JUnitCore.runClasses(PathCoverageTest.class);
+	      Result resultStatementTest = JUnitCore.runClasses(StatementCoverageTest.class);
 			
-	      for (Failure failure : result.getFailures()) {
+	      for (Failure failure : resultPathTest.getFailures()) {
 	         System.out.println(failure.toString());
 	      }
 			
-	      System.out.println(result.wasSuccessful());
+	      for (Failure failure : resultStatementTest.getFailures()) {
+		         System.out.println(failure.toString());
+		  }
+				
+	      System.out.println(resultPathTest.wasSuccessful());
+	      System.out.println(resultStatementTest.wasSuccessful());
 	   }
 }

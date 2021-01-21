@@ -82,7 +82,7 @@ public class CarInsurance {
 	}
 	
 	public int calculatePremium() { //Method to calculate the premium value
-		int base = 500;
+		int base = 500;//first business rule
 		if (!(this.sexo.equals("F")) && !(this.sexo.equals("M"))) {
 			JOptionPane.showMessageDialog(null, "Sexo ingresado no es valido");
 			return -1;
@@ -99,13 +99,16 @@ public class CarInsurance {
 			JOptionPane.showMessageDialog(null, "Licencia no v�lida");
 			return -1;
 		}
-		if( "M".equals(this.sexo) && !this.isMarried && this.edad<25) {
+		if( "M".equals(this.sexo) && !this.isMarried && this.edad<25) { //second business rule
 			base += 1500;
 		}
-		if("F".equals(this.sexo) || this.isMarried) {
+		if("F".equals(this.sexo) || this.isMarried) { //third business rule
 			base-=200;
 		}
-		if(this.edad>=45 && this.edad<65) {
+		if(this.edad>=45 && this.edad<65) { //fourth business rule
+			base-=100;
+		}
+		if("M".equals(this.sexo) && this.edad>25 && this.edad<45) {//New business rule required #1
 			base-=100;
 		}
 		return base;
